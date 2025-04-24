@@ -1,0 +1,38 @@
+// ===== index.html (untuk GitHub Pages) =====
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PPC AdBoard - Sistem Tukar Iklan Blogger</title>
+  <style>
+    body { font-family: sans-serif; line-height: 1.6; max-width: 600px; margin: 2rem auto; padding: 1rem; }
+    code { background: #eee; padding: 2px 4px; }
+  </style>
+</head>
+<body>
+  <h1>PPC AdBoard - Sistem Tukar Iklan Blogger</h1>
+  <p>Sistem ini memungkinkan blogger untuk menukar iklan secara otomatis, berdasarkan sistem poin.</p>
+
+  <h2>Cara Kerja</h2>
+  <ul>
+    <li>View = +1 poin</li>
+    <li>Klik = +10 poin</li>
+    <li>Pemilik iklan dikurangi poin saat iklannya ditampilkan dan diklik</li>
+    <li>Jika saldo nol, iklan admin yang akan muncul</li>
+  </ul>
+
+  <h2>Pasang Widget di Blogspot</h2>
+  <p>Contoh kode iframe:</p>
+  <pre><code>&lt;iframe src="https://yourdomain.com/widget.php?owner=namablog&amp;size=320x100" width="320" height="100" style="border:none;overflow:hidden;"&gt;&lt;/iframe&gt;</code></pre>
+
+  <h2>Instalasi</h2>
+  <ol>
+    <li>Upload seluruh folder ke hosting yang mendukung PHP</li>
+    <li>Pastikan folder <code>data/</code> bisa ditulis (permissions 755 atau 775)</li>
+    <li>Akses <code>index.php</code> untuk mendaftarkan iklan</li>
+  </ol>
+
+  <p>Project ini open-source dan bisa dikembangkan lebih lanjut. 💡</p>
+</body>
+</html>
